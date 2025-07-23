@@ -1,0 +1,27 @@
+python_path: "/blue/pinaki.sarder/ahmed.naglah/conda/envs/mofa2_env/bin/python3"
+conda_env: "mofa2_env"
+input_dir: "./input"
+output_file: "./bestModel/Ahmed_KPMPWSI_44_All.hdf5"
+output_plot: "./results/variance_explained_All.pdf"
+files:
+  - slide_features_chief.csv
+  - slide_features_feather.csv
+  - slide_features_madeleine.csv
+  - slide_features_prism.csv
+  - slide_features_titan.csv
+  - foundation_prov.csv
+  - sc_PT_44.csv
+  - somascan_urine_44.csv
+  - somascan_plasma_44.csv
+  - metabolon_plasma_44.csv
+view_names:
+  - slide_features_chief
+  - slide_features_feather
+  - slide_features_madeleine
+  - slide_features_prism
+  - slide_features_titan
+  - foundation_prov
+  - sc_PT_44
+  - somascan_urine_44
+  - somascan_plasma_44
+  - metabolon_plasma_44
