@@ -1,8 +1,18 @@
-python_path: "/blue/pinaki.sarder/ahmed.naglah/conda/envs/mofa2_env/bin/python3"
 conda_env: "mofa2_env"
+python_path: "/blue/pinaki.sarder/ahmed.naglah/conda/envs/mofa2_env/bin/python3"
+r_path: "/blue/pinaki.sarder/ahmed.naglah/conda/envs/mofa2_env/bin/Rscript"
 input_dir: "./input"
-output_file: "./bestModel/Ahmed_KPMPWSI_44_All.hdf5"
-output_plot: "./results/variance_explained_All.pdf"
+clinical_file: "./input/clinical_data_44.csv"
+contineous_predictors:
+  - np_age
+  - lab_egfr_most_recentC
+  - lab_scr_most_recent_to_bpC
+categorical_predictors:
+  - ckd_akiC
+  - sc_disease_type
+  - np_gender
+  - mh_diabetes_yn
+  - mh_diabetes_type
 files:
   - slide_features_chief.csv
   - slide_features_feather.csv
@@ -25,3 +35,10 @@ view_names:
   - somascan_urine_44
   - somascan_plasma_44
   - metabolon_plasma_44
+output_dir: "./results/exp1"
+output_file: "./results/exp1/Ahmed_KPMPWSI_44_All.hdf5"
+output_plot: "./results/exp1/variance_explained_All.pdf"
+output_plot2: "./results/exp1/factors_plot.pdf"
+factors_filtered: "./results/exp1/factors_filtered.csv"
+output_correlation_file: "./results/exp1/correlation_significance.csv"
+output_correlation_file2: "./results/exp1/categorical_significance.csv"
