@@ -76,3 +76,11 @@ output_plot2: "./results/experiment_1/factors_plot.pdf"
 factors_filtered: "./results/experiment_1/factors_filtered.csv"
 output_correlation_file: "./results/experiment_1/correlation_significance.csv"
 output_correlation_file2: "./results/experiment_1/categorical_significance.csv"
+
+
+## Usage
+
+After preparing your configuration file (e.g., `config.yml`), run the pipeline with the following command:
+
+```bash
+python run_mofa.py --config config.yml
