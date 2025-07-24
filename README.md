@@ -3,7 +3,7 @@
 
     
 ## Project Description
-<img align="right" src="PathOmix.png" width="350px" />
+<img align="right" src="PathOmix.png" width="250px" />
 
 This project proposes a pipeline that integrates multi-omics data with pathologic features extracted from histopathology slides. The pathology features can be derived either using foundation models (deep learning representations) or using standard image analysis features. The goal is to enable comprehensive factor analysis that jointly models molecular and imaging data to uncover meaningful biological insights.
 
